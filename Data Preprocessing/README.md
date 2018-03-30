@@ -2,8 +2,8 @@
 
 ## Data
 Sentiment Labelled Sentences Data Set, which contains sentences
-labelled with positive or negative sentiment. It can be downloaded here
-http://archive.ics.uci.edu/ml/datasets/Sentiment+Labelled+Sentences.
+labelled with positive or negative sentiment. It can be downloaded [here](
+http://archive.ics.uci.edu/ml/datasets/Sentiment+Labelled+Sentences).
 Read their readme.txt file for detailed information. There are three subsets
 respectively from IMDB, Amazon and Yelp. Please merge them as a
 single dataset, which should contain 3,000 sentences in total.
@@ -33,12 +33,12 @@ download and install NLKT 3.0.3 <br>
 ### Step3
 download NLKT's WordNet package：<br>
 ```bash
->> python
->> import nltk
->> nltk.download()
->> d
->> wordnet
->> q
+>>> python
+>>> import nltk
+>>> nltk.download()
+>>> d
+>>> wordnet
+>>> q
 ```
 choose the wordnet 10.3MB under All packages to install <br>
 (Download Directory:  set this to C:\nltk_data (Windows), /usr/local/share/nltk_data (Mac), or /usr/share/nltk_data (Unix).)
@@ -46,7 +46,7 @@ choose the wordnet 10.3MB under All packages to install <br>
 ### Step4
 run the python code <br>
 ```bash
->> python Preprocessing.py
+>>> python Preprocessing.py
 ```
 
 ## Result example
